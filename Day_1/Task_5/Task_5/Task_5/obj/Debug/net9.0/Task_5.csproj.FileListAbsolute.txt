@@ -1,0 +1,15 @@
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/bin/Debug/net9.0/Task_5
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/bin/Debug/net9.0/Task_5.deps.json
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/bin/Debug/net9.0/Task_5.runtimeconfig.json
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/bin/Debug/net9.0/Task_5.dll
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/bin/Debug/net9.0/Task_5.pdb
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.AssemblyInfoInputs.cache
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.AssemblyInfo.cs
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.csproj.CoreCompileInputs.cache
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.sourcelink.json
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.dll
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/refint/Task_5.dll
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.pdb
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/Task_5.genruntimeconfig.cache
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_5/Task_5/Task_5/obj/Debug/net9.0/ref/Task_5.dll
