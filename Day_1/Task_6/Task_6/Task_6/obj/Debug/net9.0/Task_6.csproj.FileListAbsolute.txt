@@ -1,0 +1,15 @@
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/bin/Debug/net9.0/Task_6
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/bin/Debug/net9.0/Task_6.deps.json
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/bin/Debug/net9.0/Task_6.runtimeconfig.json
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/bin/Debug/net9.0/Task_6.dll
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/bin/Debug/net9.0/Task_6.pdb
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.AssemblyInfoInputs.cache
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.AssemblyInfo.cs
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.csproj.CoreCompileInputs.cache
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.sourcelink.json
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.dll
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/refint/Task_6.dll
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.pdb
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/Task_6.genruntimeconfig.cache
+/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/obj/Debug/net9.0/ref/Task_6.dll
