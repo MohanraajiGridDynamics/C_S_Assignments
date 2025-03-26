@@ -106,7 +106,7 @@ public class Courses : Department
         
         Console.WriteLine("Successfully added your courses");
 
-        foreach (var course in Selected_Courses)
+        /*foreach (var course in Selected_Courses)
         {
            var _courseID = course.Key;
             var _courseName = course.Value;
@@ -117,7 +117,26 @@ public class Courses : Department
             };
             string jsonString = JsonSerializer.Serialize(courseData);
             File.AppendAllText(jsonFilePath, jsonString);
+        }*/
+
+        List<CourseData> coursesList = new List<CourseData>();
+
+        foreach (var course in Selected_Courses)
+        {
+            var _courseID = course.Key;
+            var _courseName = course.Value;
+
+            CourseData courseData = new CourseData
+            {
+                CourseID = _courseID,
+                CourseName = _courseName,
+            };
+            
+            coursesList.Add(courseData);
         }
+        
+        string jsonString = JsonSerializer.Serialize(coursesList);
+        File.WriteAllText(jsonFilePath, jsonString);
         
         
         Console.WriteLine("Press 1 to view all courses or Any number to exit: ");
