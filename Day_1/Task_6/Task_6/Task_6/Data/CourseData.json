@@ -1,17 +1,4 @@
-{
-  "CoursesAvailable": {
-    "IT": ["Introduction to Python Programming", "Web Development with HTML, CSS, and JavaScript",
-      "Machine Learning Fundamentals", "Data Structures and Algorithms", "Building Mobile Apps with React Native",
-      "Cybersecurity Essentials", "Cloud Computing with AWS", "Introduction to Data Science", "AI and Deep Learning",
-      "Game Development with Unity", "Database Management with SQL", "Blockchain Technology and Applications",
-      "Internet of Things (IoT) for Beginners", "Introduction to Big Data", "DevOps Essentials",
-      "Software Testing and Quality Assurance", "Data Visualization with Tableau", "Augmented Reality (AR) Development",
-      "Introduction to Virtualization and Docker", "Ethical Hacking and Penetration Testing"],
-    "EEE": ["Advanced Power Systems Analysis", "Renewable Energy Systems", "Microelectronics and Semiconductor Devices",
-      "Control Systems Engineering", "Electromagnetic Field Theory", "Digital Signal Processing",
-      "Electrical Machines and Transformers", "Power Electronics and Drives", "Circuit Theory and Analysis",
-      "Embedded Systems and IoT"],
-    "Mech": ["Thermodynamics and Heat Transfer", "Fluid Mechanics and Dynamics", "Mechanical Design and CAD",
-      "Manufacturing Processes and Automation", "Materials Science and Engineering"]
-  }
-}
+{"CoursesAvailable":null,"CourseID":2,"CourseName":"Web Development with HTML, CSS, and JavaScript","Department":null,"InstructorName":null,"Credits":0,"CourseSchedule":null,"Selected_Courses":null}
+{"CoursesAvailable":null,"CourseID":1,"CourseName":"Introduction to Python Programming","Department":null,"InstructorName":null,"Credits":0,"CourseSchedule":null,"Selected_Courses":null}
+{"CoursesAvailable":null,"CourseID":2,"CourseName":"Web Development with HTML, CSS, and JavaScript","Department":null,"InstructorName":null,"Credits":0,"CourseSchedule":null,"Selected_Courses":null}
+{"CoursesAvailable":null,"CourseID":3,"CourseName":"Machine Learning Fundamentals","Department":null,"InstructorName":null,"Credits":0,"CourseSchedule":null,"Selected_Courses":null}

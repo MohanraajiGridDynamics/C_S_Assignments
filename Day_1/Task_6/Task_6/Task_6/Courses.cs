@@ -72,18 +72,19 @@ public class Courses : Department
             
             Console.WriteLine($"The course you selected is {Dept_Courses[response]} and Course ID : {CourseIDs[response-1]}");
 
-            for (int i = 1; i <= Selected_Courses.Count; i++)
-            {
-                if (Selected_Courses[i] == Dept_Courses[response]) 
+           
+           foreach (var course in Selected_Courses){
+                if (course.Value == Dept_Courses[response]) 
                 {
                     Console.WriteLine("Course is already added");
                     Console.WriteLine("Select any other Course ");
                     Console.WriteLine("Redirecting");
                     response = 1;
                     flag = 1;
-                    break;
+                    
                 }
-            }
+           }
+           
             
             if (flag == 1)
                 continue;
@@ -104,18 +105,26 @@ public class Courses : Department
         } while (response != 0);
         
         Console.WriteLine("Successfully added your courses");
+
+        foreach (var course in Selected_Courses)
+        {
+           var _courseID = course.Key;
+            var _courseName = course.Value;
+            CourseData courseData = new CourseData
+            {
+                CourseID = _courseID,
+                CourseName = _courseName
+            };
+            string jsonString = JsonSerializer.Serialize(courseData);
+            File.AppendAllText(jsonFilePath, jsonString);
+        }
+        
+        
         Console.WriteLine("Press 1 to view all courses or Any number to exit: ");
         response = Convert.ToInt32(Console.ReadLine());
         if (response == 1)
         {
-            /*for (int i = 0; i < Selected_Courses.Count; i++)
-            {
-                if (Selected_Courses[i] == "" )
-                {
-                    break;
-                }
-                Console.WriteLine($"Course ID :{Selected_Courses.Key()} - Course Name : {Selected_Courses[i]}");
-            }*/
+            
 
             foreach (var course in Selected_Courses)
             {
