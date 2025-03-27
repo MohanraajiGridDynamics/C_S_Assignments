@@ -44,8 +44,6 @@ public class Courses : Department
             Console.WriteLine($"Course ID: {course.Key} - Course Name : {course.Value}");
         }
         
-        
-        
     }
 
     public void addCourse()

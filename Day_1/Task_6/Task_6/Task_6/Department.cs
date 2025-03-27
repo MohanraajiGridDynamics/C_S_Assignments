@@ -1,6 +1,7 @@
 
 using System.Collections.Specialized;
 using System.Text.Json;
+using College.DataClasses;
 
 public class Department
 {
@@ -41,6 +42,10 @@ public class Department
 
         var courseData = JsonSerializer.Deserialize<CourseData>(CourseNames);
 
+        string deptJsonPath = "/Users/mmohanraaji/Documents/E/C_S_ASSIGN/Day_1/Task_6/Task_6/Task_6/Data/DepartmentData.json";
+       // string jsonString = JsonSerializer.Serialize(DepartmentData);
+        
+        
         if (res == 1)
         {
             int count = 1;
@@ -50,6 +55,17 @@ public class Department
                 Dept_Courses.Add(count, course);
                 count++;
             }
+            
+            var _deptID = res;
+            var _deptName = "IT";
+
+            DepartmentData deptData = new DepartmentData()
+            {
+                DeptNumber = _deptID,
+                DepartmentName = _deptName,
+            };
+            string jsonString = JsonSerializer.Serialize(deptData);
+            File.WriteAllText(deptJsonPath, jsonString);
         }
         else if (res == 2)
         {
@@ -61,6 +77,17 @@ public class Department
                 Dept_Courses.Add(count, course);
                 count++;
             }
+            
+            var _deptID = res;
+            var _deptName = "IT";
+
+            DepartmentData deptData = new DepartmentData()
+            {
+                DeptNumber = _deptID,
+                DepartmentName = _deptName,
+            };
+            string jsonString = JsonSerializer.Serialize(deptData);
+            File.WriteAllText(deptJsonPath, jsonString);
         }
         else if (res == 3)
         {
@@ -71,6 +98,18 @@ public class Department
                 Dept_Courses.Add(count, course);
                 count++;
             }
+            
+            var _deptID = res;
+            var _deptName = "IT";
+
+            DepartmentData deptData = new DepartmentData()
+            {
+                DeptNumber = _deptID,
+                DepartmentName = _deptName,
+            };
+            string jsonString = JsonSerializer.Serialize(deptData);
+            File.WriteAllText(deptJsonPath, jsonString);
+            
         }
         else
         {

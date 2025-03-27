@@ -9,29 +9,38 @@ namespace College
         
         public static void Main()
         {
-            /*Student student = new Student();
+            Student student = new Student();
             student.setStudentDetails();
-            student.getStudentDetails();*/
+            student.getStudentDetails();
             
-            //Course course = new Course();
-            //course.viewCourses();
-            //course.addCourse();
             
-           /* ITCourse it = new ITCourse();
-            EEECourse eee = new EEECourse();
-            MechCourse mech = new MechCourse();
-
-           */
            
-           /* Department department = new Department();
-           department.DeptSelect();*/
+           Department department = new Department();
+           department.DeptSelect();
 
            Courses courses = new Courses();
            courses.DeptSelect();
            //courses.viewCourses();
            courses.addCourse();
 
+            Instructor instructor = new Instructor();
+            instructor.getInstructorDetails(); 
+           
+           Hostel hostel = new Hostel();
+           hostel.SetHostelDetails();
+           hostel.GetHostelDetails();
+           int hostelID = hostel.RoomID;
+           int hostelFee = hostel.TotalPrice;
+           
+           Library library = new Library();
+           library.getBooks();
+           
+            Examination examination = new Examination();
+           examination.setExamDetails();
 
+
+           FeePayment payment = new FeePayment();
+           payment.getFeeDetails();
 
         }
     }
