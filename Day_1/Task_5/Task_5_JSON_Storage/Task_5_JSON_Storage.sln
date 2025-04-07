@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_5_JSON_Storage", "Task_5_JSON_Storage\Task_5_JSON_Storage.csproj", "{1192B852-4FE6-4514-A9BB-384DF5F1A596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1192B852-4FE6-4514-A9BB-384DF5F1A596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1192B852-4FE6-4514-A9BB-384DF5F1A596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1192B852-4FE6-4514-A9BB-384DF5F1A596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1192B852-4FE6-4514-A9BB-384DF5F1A596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
